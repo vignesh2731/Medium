@@ -26,5 +26,3 @@ This project was built to gain hands-on experience with:
 - Full-stack development using Prisma with PostgreSQL
 - Styling modern UIs with Tailwind CSS
 - Building scalable, performant prototypes using Hono and React
-
-## 📦 Getting Started
