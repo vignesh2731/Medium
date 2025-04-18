@@ -6,7 +6,7 @@ export function Blog(){
     const [searchParams]=useSearchParams()
     const id=searchParams.get("id");
     const {loading,blog}=useBlog({id:String(id)});
-    if (!id) {
+    if (!id || !blog) {
         return <div>No blog ID provided</div>;
     }
     if(loading)
